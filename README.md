@@ -17,8 +17,8 @@ def randomlist(n):
 ```
 
 To replicate the tests, simply clone the repo and type the following into your command line:
-```
-python3 ./main.py
+```sh
+$ python3 ./main.py
 ```
 
 ---
