@@ -1,5 +1,4 @@
-
-def insertion(l: list) -> list:
+def insertion(l: list):
     arr = l[::]
     for i in range(len(arr)):
         for j in range(i, 0, -1):
