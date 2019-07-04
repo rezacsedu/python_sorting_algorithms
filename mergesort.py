@@ -1,5 +1,4 @@
-
-def merge_sort(l:list) -> list:
+def merge_sort(l:list):
     arr = l[::]
     if len(arr) < 2:
         return arr
@@ -25,4 +24,3 @@ def merge(l, r):
         arr.append(r[j])
         j += 1
     return arr
-
