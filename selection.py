@@ -1,5 +1,4 @@
-
-def selection(l: list) -> list:
+def selection(l: list):
     arr = l[::]
     for i in range(len(arr)):
         m = i
