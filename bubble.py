@@ -1,7 +1,7 @@
-def bubble_sort(l: list) -> list:
+def bubble_sort(l: list):
     arr = l[::]
     is_sorted = True
-    end = len(l)
+    end = len(arr)
     while is_sorted:
         is_sorted = False
         for i in range(1, end):
