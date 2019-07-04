@@ -1,4 +1,3 @@
-
 def heapify(arr, n, i):
     largest = i
     l = 2 * i + 1
@@ -12,7 +11,7 @@ def heapify(arr, n, i):
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
 
-def heap_sort(l: list) -> list:
+def heap_sort(l: list):
     arr = l[::]
     n = len(arr)
     for i in range(n, -1, -1):
