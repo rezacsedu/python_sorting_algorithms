@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
 """
-This module performs speed tests on 10 different sorting algorithms.
+This module performs speed tests on 11 different sorting algorithms.
 """
 
 
 if __name__ == "__main__":
+
     import random
     import timeit
     from bubble import *
@@ -22,8 +23,7 @@ if __name__ == "__main__":
     def randomlist(n):
         return [random.randint(0, 100000) for x in range(n)]
 
-    ex = randomlist(500)
-    print(ex)
+    ex = randomlist(1000)
 
     print("bubble")
     print(timeit.timeit("bubble_sort(ex)", globals=globals(), number=100))
@@ -54,3 +54,6 @@ if __name__ == "__main__":
 
     print("shell")
     print(timeit.timeit("shell(ex)", globals=globals(), number=100))
+
+    print("default")
+    print(timeit.timeit("sorted(ex)", globals=globals(), number=100))
