@@ -1,4 +1,3 @@
-
 def quicksort(l:list) -> list:
     arr = l[::]
     if len(arr) <= 1:
