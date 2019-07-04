@@ -1,5 +1,4 @@
-
-def shaker(l:list) -> list:
+def shaker(l:list):
     arr = l[::]
     sort = True
     start = 0
@@ -19,4 +18,3 @@ def shaker(l:list) -> list:
         start = start + 1
         end -= 1
     return arr
-
