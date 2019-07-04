@@ -1,4 +1,4 @@
-def shell(l:list) -> list:
+def shell(l:list):
     arr = l[::]
     n = 0
     while (n < len(arr) // 3):
