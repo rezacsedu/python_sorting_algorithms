@@ -15,6 +15,6 @@ def shaker(l:list):
             if arr[j] < arr[j - 1]:
                 arr[j], arr[j - 1] = arr[j - 1], arr[j]
             sort = True
-        start = start + 1
+        start += 1
         end -= 1
     return arr
