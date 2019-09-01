@@ -1,13 +1,14 @@
 # Python Sorting Algorithms
 
 ## Description
-* This repository contains implementations of different sorting algorithms in Python.
+
+- This repository contains implementations of different sorting algorithms in Python.
 
 ## Usage
 
-* All files were created and compiled on Ubuntu 14.04.4 LTS with Python3 (version 3.4.3)
-* All code use the PEP 8 style (version 1.7.*)
-* All random lists of integers are generated with the following function:
+- All files are created and compiled on Ubuntu 14.04.4 LTS with Python3 (version 3.4.3)
+- All Python code use the PEP 8 style (version 1.7.\*)
+- All random lists of integers are generated with the following function:
 
 ```python
 import random
@@ -17,6 +18,7 @@ def randomlist(n):
 ```
 
 To replicate the tests, simply clone the repo and type the following into your command line:
+
 ```sh
 $ python3 ./main.py
 ```
@@ -45,6 +47,6 @@ $ python3 ./main.py
 
 ### [ Shell Sort ](./shell.py)
 
-
 ## Author
-* __Tu Vo__
+
+- **Tu Vo** - [tuvo1106](https://github.com/tuvo1106)
